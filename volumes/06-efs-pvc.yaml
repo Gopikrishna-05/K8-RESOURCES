@@ -4,7 +4,7 @@ metadata:
   name: efs-static
 spec:
   accessModes:
-    - ReadWriteMany
+    - ReadWriteOnce
   storageClassName: ""
   volumeName: "efs-static"
   resources:
